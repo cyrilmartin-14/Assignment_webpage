@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+ <head>
+ <title>Webpage_assignment</title>
+ <link rel="stylesheet" type="text/css" href="style.css">
+ <style>
+ div {
+ width: 200px;
+ height: 50px;
+ background-color: rgba(0, 225, 255, 0.829);
+ position: relative;
+ animation: myfirst 5s both 0s infinite alternate;
+ }
+
+ @keyframes myfirst {
+ 0% {background-color:red; left:0px; top:0px;}
+ 25% {background-color:rgb(0, 89, 255); left:200px; top:0px;}
+ 50% {background-color:rgb(9, 255, 0); left:200px; top:200px;}
+ 75% {background-color:rgb(173, 26, 173); left:0px; top:200px;}
+ 100% {background-color:rgb(255, 217, 0); left:0px; top:0px;}
+ }
+ </style>
+ </head>
+ <body bgcolor="000000">
+ <header>
+  <center><h1>MARVEL STUDIOS</h1></center>
+ <nav>
+ <ul>
+ <li><a href="index.html">MARVEL HQ</a></li>
+ <li><a href="about.html">About Us</a></li>
+ <li class="active"><a
+href="contact.html">Feedback Info</a></li>
+ </ul>
+ </nav>
+ </header>
+
+ <sec>
+ <h2>Join Us MARVEL Maniacs!</h2>
+ </sec><br>
+ <center>
+  <img src="hands.jpg" width="400" height="350">
+  </center>
+ <main>
+ <section>
+  <br><br><br><br><br><br><br><br><br><br>
+ <p>Post any MARVEL Info or feedback. Deserving and valid Datas will be added to out Database and will be available for world-wide MARVEL fans</p>
+<p>We'll get back to you as soon as possible.</p>
+<br>
+<center>
+ <form>
+ <li><label for="name">Name</label>
+ <input type="text" id="name" name="name" required></li>
+ <br>
+ <li><label for="email">Email</label>
+ <input type="email" id="email" name="email" required></li>
+ <br>
+ <label for="message">Message for us</label>
+ <br>
+ <textarea id="message" name="message"  required ></textarea>
+ <br><br>
+<button type="submit">Send Message</button>
+ </form>
+ <br><br><br><br><br><br><br><br><br><br><br>
+</center>
+ </section>
+ </main>
+ <center>
+ <div><b>Look out for MARVEL trivia and give-aways!</b></div>
+ </center>
+ </body>
+</html>
